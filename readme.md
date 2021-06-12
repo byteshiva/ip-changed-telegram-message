@@ -7,3 +7,12 @@
 In order to find the public ip address out https://ipv4.edjopato.de and https://ipv6.edjopato.de are used.
 
 Needs [BOT_TOKEN](https://telegram.me/BotFather) and [TARGET_CHAT (`chat_id`)](https://core.telegram.org/bots/api#sendmessage) environment variables set in order to work.
+
+
+```
+RUST_BACKTRACE=1 BOT_TOKEN=<bot-token> TARGET_CHAT=<user.id> ./target/release/ip-changed-telegram-message
+ge
+
+```
+
+https://python-telegram-bot.readthedocs.io/en/stable/telegram.user.html
